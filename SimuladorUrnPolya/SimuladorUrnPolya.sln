@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimuladorUrnPolya", "SimuladorUrnPolya.csproj", "{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5CE65454-49D7-4D12-A35D-5067A784AE8F}"
+	ProjectSection(SolutionItems) = preProject
+		Urn.cs = Urn.cs
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PólyaUrnSimulator_setup", "..\PólyaUrnSimulator_setup\PólyaUrnSimulator_setup.vdproj", "{FF7670F0-6433-4843-A20A-932FA8294CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Debug|x64.Build.0 = Debug|Any CPU
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Debug|x86.Build.0 = Debug|Any CPU
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Release|x64.ActiveCfg = Release|Any CPU
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Release|x64.Build.0 = Release|Any CPU
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC88D46F-9B4F-4C6E-AF8D-374FD3EA8C8B}.Release|x86.Build.0 = Release|Any CPU
+		{FF7670F0-6433-4843-A20A-932FA8294CCC}.Debug|Any CPU.ActiveCfg = Debug
+		{FF7670F0-6433-4843-A20A-932FA8294CCC}.Debug|x64.ActiveCfg = Debug
+		{FF7670F0-6433-4843-A20A-932FA8294CCC}.Debug|x86.ActiveCfg = Debug
+		{FF7670F0-6433-4843-A20A-932FA8294CCC}.Release|Any CPU.ActiveCfg = Release
+		{FF7670F0-6433-4843-A20A-932FA8294CCC}.Release|x64.ActiveCfg = Release
+		{FF7670F0-6433-4843-A20A-932FA8294CCC}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {691808DD-A409-4F6C-9499-FAD45709DEA8}
+	EndGlobalSection
+EndGlobal
